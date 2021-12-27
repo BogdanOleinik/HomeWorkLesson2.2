@@ -96,9 +96,6 @@
                                         </connections>
                                     </slider>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="182" id="vxF-mi-waC"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -109,8 +106,10 @@
                             <constraint firstItem="SNJ-ZK-VlJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3c0-cQ-Ble"/>
                             <constraint firstItem="jVO-j5-IUm" firstAttribute="leading" secondItem="cA9-hT-fVx" secondAttribute="trailing" constant="10" id="5Ot-jO-OyT"/>
                             <constraint firstItem="SNJ-ZK-VlJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FO6-Zh-bTb"/>
+                            <constraint firstItem="Cgq-EE-bdY" firstAttribute="leading" secondItem="jVO-j5-IUm" secondAttribute="trailing" constant="89" id="Gqy-Jp-wZP"/>
                             <constraint firstItem="jVO-j5-IUm" firstAttribute="top" secondItem="SNJ-ZK-VlJ" secondAttribute="bottom" constant="30" id="HB0-pC-EWK"/>
                             <constraint firstItem="cA9-hT-fVx" firstAttribute="top" secondItem="SNJ-ZK-VlJ" secondAttribute="bottom" constant="30" id="VPS-2U-kFV"/>
+                            <constraint firstItem="jVO-j5-IUm" firstAttribute="width" secondItem="Cgq-EE-bdY" secondAttribute="width" multiplier="0.274725" id="WRe-pq-ndy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cgq-EE-bdY" secondAttribute="trailing" constant="16" id="Z3g-sY-ab8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SNJ-ZK-VlJ" secondAttribute="trailing" constant="16" id="fYU-h2-ZAb"/>
                             <constraint firstItem="Cgq-EE-bdY" firstAttribute="height" secondItem="SNJ-ZK-VlJ" secondAttribute="height" multiplier="0.78125" id="ndH-xP-iki"/>
